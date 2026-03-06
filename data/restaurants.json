@@ -1,0 +1,272 @@
+[
+  {
+    "name": "Prince Lebanese Grill",
+    "rating": 4.5,
+    "priceLevel": 2,
+    "categories": ["halal", "mediterranean", "restaurant"],
+    "mode": ["food"],
+    "lat": 32.7347,
+    "lng": -97.1082
+  },
+  {
+    "name": "Halal Bros Arlington",
+    "rating": 4.4,
+    "priceLevel": 1,
+    "categories": ["halal", "middle-eastern", "chicken"],
+    "mode": ["food"],
+    "lat": 32.7383,
+    "lng": -97.1124
+  },
+  {
+    "name": "Pho Pasteur",
+    "rating": 4.6,
+    "priceLevel": 2,
+    "categories": ["vietnamese", "noodles", "restaurant"],
+    "mode": ["food"],
+    "lat": 32.7474,
+    "lng": -97.0951
+  },
+  {
+    "name": "Milo's Pizza Pub",
+    "rating": 4.3,
+    "priceLevel": 2,
+    "categories": ["italian", "pizza", "restaurant"],
+    "mode": ["food"],
+    "lat": 32.7358,
+    "lng": -97.1196
+  },
+  {
+    "name": "Old School Pizza Tavern",
+    "rating": 4.5,
+    "priceLevel": 2,
+    "categories": ["italian", "pizza", "american"],
+    "mode": ["food"],
+    "lat": 32.7422,
+    "lng": -97.1078
+  },
+  {
+    "name": "Cane Rosso Arlington",
+    "rating": 4.4,
+    "priceLevel": 2,
+    "categories": ["italian", "pizza", "restaurant"],
+    "mode": ["food"],
+    "lat": 32.7496,
+    "lng": -97.0811
+  },
+  {
+    "name": "Pappasito's Cantina",
+    "rating": 4.5,
+    "priceLevel": 3,
+    "categories": ["mexican", "tex-mex", "restaurant"],
+    "mode": ["food", "drink"],
+    "lat": 32.7567,
+    "lng": -97.0728
+  },
+  {
+    "name": "Tacos La Banqueta",
+    "rating": 4.4,
+    "priceLevel": 1,
+    "categories": ["mexican", "street-food", "tacos"],
+    "mode": ["food"],
+    "lat": 32.7228,
+    "lng": -97.0997
+  },
+  {
+    "name": "Salsa Limon",
+    "rating": 4.3,
+    "priceLevel": 1,
+    "categories": ["mexican", "tacos", "restaurant"],
+    "mode": ["food"],
+    "lat": 32.7443,
+    "lng": -97.0916
+  },
+  {
+    "name": "J Gilligan's Bar & Grill",
+    "rating": 4.4,
+    "priceLevel": 2,
+    "categories": ["american", "burger", "bar"],
+    "mode": ["food", "drink"],
+    "lat": 32.7371,
+    "lng": -97.1066
+  },
+  {
+    "name": "Grease Monkey",
+    "rating": 4.5,
+    "priceLevel": 2,
+    "categories": ["american", "burger", "chicken"],
+    "mode": ["food", "drink"],
+    "lat": 32.7451,
+    "lng": -97.1084
+  },
+  {
+    "name": "Twisted Root Burger Co.",
+    "rating": 4.3,
+    "priceLevel": 2,
+    "categories": ["american", "burger", "restaurant"],
+    "mode": ["food"],
+    "lat": 32.7491,
+    "lng": -97.0829
+  },
+  {
+    "name": "Chick-fil-A Cooper",
+    "rating": 4.4,
+    "priceLevel": 1,
+    "categories": ["chicken", "american", "fast-food"],
+    "mode": ["food"],
+    "lat": 32.7182,
+    "lng": -97.1148
+  },
+  {
+    "name": "Layne's Chicken Fingers",
+    "rating": 4.6,
+    "priceLevel": 1,
+    "categories": ["chicken", "american", "fast-food"],
+    "mode": ["food"],
+    "lat": 32.7352,
+    "lng": -97.1291
+  },
+  {
+    "name": "Raising Cane's Arlington",
+    "rating": 4.3,
+    "priceLevel": 1,
+    "categories": ["chicken", "fast-food", "american"],
+    "mode": ["food"],
+    "lat": 32.7244,
+    "lng": -97.1138
+  },
+  {
+    "name": "Kung Fu Tea Arlington",
+    "rating": 4.6,
+    "priceLevel": 1,
+    "categories": ["boba", "tea", "dessert"],
+    "mode": ["drink"],
+    "lat": 32.7318,
+    "lng": -97.1062
+  },
+  {
+    "name": "Sharetea Arlington",
+    "rating": 4.5,
+    "priceLevel": 1,
+    "categories": ["boba", "tea", "drink"],
+    "mode": ["drink"],
+    "lat": 32.7396,
+    "lng": -97.1004
+  },
+  {
+    "name": "Feng Cha Arlington",
+    "rating": 4.4,
+    "priceLevel": 1,
+    "categories": ["boba", "tea", "dessert"],
+    "mode": ["drink"],
+    "lat": 32.7448,
+    "lng": -97.0919
+  },
+  {
+    "name": "Ding Tea Arlington",
+    "rating": 4.3,
+    "priceLevel": 1,
+    "categories": ["boba", "tea", "drink"],
+    "mode": ["drink"],
+    "lat": 32.7273,
+    "lng": -97.1014
+  },
+  {
+    "name": "Mochinut Arlington",
+    "rating": 4.5,
+    "priceLevel": 1,
+    "categories": ["dessert", "boba", "donuts"],
+    "mode": ["food", "drink"],
+    "lat": 32.7335,
+    "lng": -97.1041
+  },
+  {
+    "name": "Inclusion Coffee",
+    "rating": 4.7,
+    "priceLevel": 2,
+    "categories": ["coffee", "bakery", "dessert"],
+    "mode": ["drink", "food"],
+    "lat": 32.7351,
+    "lng": -97.1074
+  },
+  {
+    "name": "Nehemiah Coffee Co.",
+    "rating": 4.6,
+    "priceLevel": 2,
+    "categories": ["coffee", "dessert", "cafe"],
+    "mode": ["drink", "food"],
+    "lat": 32.7429,
+    "lng": -97.1091
+  },
+  {
+    "name": "Starbucks UTA Blvd",
+    "rating": 4.3,
+    "priceLevel": 2,
+    "categories": ["coffee", "cafe", "drink"],
+    "mode": ["drink", "food"],
+    "lat": 32.7305,
+    "lng": -97.1162
+  },
+  {
+    "name": "Black Rock Coffee Bar",
+    "rating": 4.5,
+    "priceLevel": 2,
+    "categories": ["coffee", "drink", "cafe"],
+    "mode": ["drink"],
+    "lat": 32.7512,
+    "lng": -97.0877
+  },
+  {
+    "name": "Bethany Cafe",
+    "rating": 4.4,
+    "priceLevel": 2,
+    "categories": ["coffee", "dessert", "american"],
+    "mode": ["drink", "food"],
+    "lat": 32.7286,
+    "lng": -97.1245
+  },
+  {
+    "name": "Insomnia Cookies Arlington",
+    "rating": 4.5,
+    "priceLevel": 1,
+    "categories": ["dessert", "cookies", "late-night"],
+    "mode": ["food", "drink"],
+    "lat": 32.7321,
+    "lng": -97.1103
+  },
+  {
+    "name": "Marble Slab Creamery",
+    "rating": 4.4,
+    "priceLevel": 2,
+    "categories": ["dessert", "ice-cream", "drink"],
+    "mode": ["food", "drink"],
+    "lat": 32.7415,
+    "lng": -97.0995
+  },
+  {
+    "name": "The Meltdown Diner",
+    "rating": 4.3,
+    "priceLevel": 2,
+    "categories": ["american", "burger", "late-night"],
+    "mode": ["food"],
+    "lat": 32.7484,
+    "lng": -97.0939
+  },
+  {
+    "name": "Spice 8 Asian Kitchen",
+    "rating": 4.6,
+    "priceLevel": 2,
+    "categories": ["asian", "halal", "restaurant"],
+    "mode": ["food"],
+    "lat": 32.7536,
+    "lng": -97.0892
+  },
+  {
+    "name": "Biryani Pot Arlington",
+    "rating": 4.4,
+    "priceLevel": 2,
+    "categories": ["halal", "indian", "restaurant"],
+    "mode": ["food"],
+    "lat": 32.7459,
+    "lng": -97.0845
+  }
+]
