@@ -116,7 +116,12 @@ function safeJsonParse(text: string): ParsedFilters | null {
   }
 }
 
-export async function parseQueryToFilters(query: string): Promise<ParsedFilters> {
+export async function parseQueryToFilters(query: string, skipGemini = false): Promise<ParsedFilters> {
+  // If daily budget is exhausted or flag is set, skip Gemini entirely
+  if (skipGemini) {
+    return fallbackParse(query);
+  }
+
   const apiKey = process.env.GEMINI_API_KEY;
   if (!apiKey) {
     return fallbackParse(query);
@@ -149,6 +154,10 @@ User query: "${query}"
 `;
 
   try {
+    // Abort if Gemini takes longer than 5 seconds
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 5_000);
+
     const response = await fetch(`${GEMINI_URL}?key=${apiKey}`, {
       method: "POST",
       headers: {
@@ -156,10 +165,16 @@ User query: "${query}"
       },
       body: JSON.stringify({
         contents: [{ parts: [{ text: prompt }] }],
-        generationConfig: { temperature: 0 }
+        generationConfig: {
+          temperature: 0,
+          maxOutputTokens: 150  // small cap — we only need a tiny JSON object
+        }
       }),
+      signal: controller.signal,
       cache: "no-store"
     });
+
+    clearTimeout(timeout);
 
     if (!response.ok) {
       return fallbackParse(query);
