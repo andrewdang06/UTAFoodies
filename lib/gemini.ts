@@ -42,7 +42,20 @@ const allowedCategories = [
   "pho",
   "tea",
   "gyro",
-  "biryani"
+  "biryani",
+  "korean",
+  "thai",
+  "japanese",
+  "sushi",
+  "smoothie",
+  "bakery",
+  "cookies",
+  "cake",
+  "ice-cream",
+  "bbq",
+  "bar",
+  "late-night",
+  "cafe"
 ];
 
 function fallbackParse(query: string): ParsedFilters {
@@ -110,7 +123,7 @@ export async function parseQueryToFilters(query: string): Promise<ParsedFilters>
   }
 
   const prompt = `
-You extract search filters for a restaurant recommendation app near UTA (University of Texas at Arlington).
+You extract search filters for MavEats, a student food finder for UTA (University of Texas at Arlington).
 Return ONLY valid JSON (no markdown, no extra text) with keys:
 category (string | undefined),
 maxDistanceMiles (number),

@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "UTAFoodies - Mavs What To Eat",
-  description: "Find the best food near UTA"
+  title: "MavEats — UTA Student Food Finder",
+  description: "The smartest way to find food near UTA. Built for Mavericks."
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

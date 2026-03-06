@@ -50,7 +50,9 @@ const QUICK_SEARCHES = [
   "cheap boba",
   "late night food",
   "coffee",
-  "burger",
+  "burgers",
+  "wings",
+  "dessert",
   "mexican food"
 ];
 
@@ -61,8 +63,8 @@ export default function HomePage() {
   const [data, setData] = useState<ApiResponse | null>(null);
 
   const subtitle = useMemo(() => {
-    if (!data) return "Find the best food near UTA";
-    return `Top matches within ${data.filters.maxDistanceMiles} miles`;
+    if (!data) return "The smartest way to find food near UTA";
+    return `Top ${data.results.length} picks within ${data.filters.maxDistanceMiles} mi`;
   }, [data]);
 
   const doSearch = async (searchQuery: string) => {
@@ -105,15 +107,18 @@ export default function HomePage() {
   return (
     <main className="mx-auto flex min-h-screen w-full max-w-4xl flex-col px-4 pb-12 pt-14">
       <header className="text-center">
-        <h1 className="text-4xl font-extrabold tracking-tight text-slate-900 md:text-5xl">Mavs What To Eat</h1>
-        <p className="mt-3 text-base text-slate-600 md:text-lg">{subtitle}</p>
+        <h1 className="text-4xl font-extrabold tracking-tight text-slate-900 md:text-5xl">
+          <span className="text-blue-700">Mav</span>Eats
+        </h1>
+        <p className="mt-2 text-sm text-slate-500">Built for Mavericks. Powered by what&apos;s actually near campus.</p>
+        <p className="mt-1 text-base text-slate-600 md:text-lg">{subtitle}</p>
       </header>
 
       <form onSubmit={onSubmit} className="mx-auto mt-10 flex w-full max-w-2xl gap-3">
         <input
           type="text"
           className="w-full rounded-xl border border-slate-300 bg-white px-5 py-4 text-base shadow-sm outline-none transition focus:border-slate-500"
-          placeholder='Try: "cheap boba" or "halal near campus"'
+          placeholder='Try "halal near campus" or "late night wings"'
           value={query}
           onChange={(event) => setQuery(event.target.value)}
         />
@@ -163,7 +168,7 @@ export default function HomePage() {
 
           {data.results.length === 0 ? (
             <div className="rounded-xl border border-slate-200 bg-white p-6 text-slate-600">
-              No results found. Try a broader search like &quot;food near me&quot; or &quot;boba within 5 miles&quot;.
+              No spots matched that search. Try something broader like &quot;food near me&quot; or &quot;cheap eats&quot;.
             </div>
           ) : (
             <>

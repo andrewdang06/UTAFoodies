@@ -2,8 +2,8 @@ import { isLateNight } from "@/lib/filter";
 import { Badge, ParsedFilters, RestaurantWithDistance, ScoredRestaurant } from "@/lib/types";
 
 // ── Weight constants ──
-const W_CATEGORY = 10; // very strong — exact cuisine match
-const W_CATEGORY_PARTIAL = 5; // partial category overlap
+const W_CATEGORY = 12; // dominant — exact cuisine match must win
+const W_CATEGORY_PARTIAL = 6; // partial category overlap
 const W_OPEN_NOW = 6; // strong — student wants to eat now
 const W_DISTANCE_MAX = 5; // strong — closer to UTA is better
 const W_RATING = 2; // secondary — rating tie-breaker
