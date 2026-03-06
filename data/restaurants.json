@@ -2,271 +2,913 @@
   {
     "name": "Prince Lebanese Grill",
     "rating": 4.5,
+    "reviewCount": 2100,
     "priceLevel": 2,
-    "categories": ["halal", "mediterranean", "restaurant"],
+    "categories": ["halal", "mediterranean", "lebanese"],
     "mode": ["food"],
     "lat": 32.7347,
-    "lng": -97.1082
+    "lng": -97.1082,
+    "hours": {
+      "monday": { "open": "11:00", "close": "21:00" },
+      "tuesday": { "open": "11:00", "close": "21:00" },
+      "wednesday": { "open": "11:00", "close": "21:00" },
+      "thursday": { "open": "11:00", "close": "21:00" },
+      "friday": { "open": "11:00", "close": "22:00" },
+      "saturday": { "open": "11:00", "close": "22:00" },
+      "sunday": { "open": "11:00", "close": "21:00" }
+    }
   },
   {
     "name": "Halal Bros Arlington",
     "rating": 4.4,
+    "reviewCount": 850,
     "priceLevel": 1,
     "categories": ["halal", "middle-eastern", "chicken"],
     "mode": ["food"],
     "lat": 32.7383,
-    "lng": -97.1124
+    "lng": -97.1124,
+    "hours": {
+      "monday": { "open": "11:00", "close": "22:00" },
+      "tuesday": { "open": "11:00", "close": "22:00" },
+      "wednesday": { "open": "11:00", "close": "22:00" },
+      "thursday": { "open": "11:00", "close": "22:00" },
+      "friday": { "open": "11:00", "close": "23:00" },
+      "saturday": { "open": "11:00", "close": "23:00" },
+      "sunday": { "open": "11:00", "close": "21:00" }
+    }
   },
   {
     "name": "Pho Pasteur",
     "rating": 4.6,
+    "reviewCount": 1400,
     "priceLevel": 2,
-    "categories": ["vietnamese", "noodles", "restaurant"],
+    "categories": ["vietnamese", "noodles", "pho"],
     "mode": ["food"],
     "lat": 32.7474,
-    "lng": -97.0951
+    "lng": -97.0951,
+    "hours": {
+      "monday": { "open": "10:00", "close": "21:00" },
+      "tuesday": { "open": "10:00", "close": "21:00" },
+      "wednesday": { "open": "10:00", "close": "21:00" },
+      "thursday": { "open": "10:00", "close": "21:00" },
+      "friday": { "open": "10:00", "close": "22:00" },
+      "saturday": { "open": "10:00", "close": "22:00" },
+      "sunday": { "open": "10:00", "close": "21:00" }
+    }
   },
   {
     "name": "Milo's Pizza Pub",
     "rating": 4.3,
+    "reviewCount": 620,
     "priceLevel": 2,
-    "categories": ["italian", "pizza", "restaurant"],
+    "categories": ["italian", "pizza"],
     "mode": ["food"],
     "lat": 32.7358,
-    "lng": -97.1196
+    "lng": -97.1196,
+    "hours": {
+      "monday": { "open": "11:00", "close": "22:00" },
+      "tuesday": { "open": "11:00", "close": "22:00" },
+      "wednesday": { "open": "11:00", "close": "22:00" },
+      "thursday": { "open": "11:00", "close": "22:00" },
+      "friday": { "open": "11:00", "close": "23:00" },
+      "saturday": { "open": "11:00", "close": "23:00" },
+      "sunday": { "open": "11:00", "close": "21:00" }
+    }
   },
   {
     "name": "Old School Pizza Tavern",
     "rating": 4.5,
+    "reviewCount": 1300,
     "priceLevel": 2,
     "categories": ["italian", "pizza", "american"],
     "mode": ["food"],
     "lat": 32.7422,
-    "lng": -97.1078
+    "lng": -97.1078,
+    "hours": {
+      "monday": { "open": "11:00", "close": "22:00" },
+      "tuesday": { "open": "11:00", "close": "22:00" },
+      "wednesday": { "open": "11:00", "close": "22:00" },
+      "thursday": { "open": "11:00", "close": "22:00" },
+      "friday": { "open": "11:00", "close": "23:00" },
+      "saturday": { "open": "11:00", "close": "23:00" },
+      "sunday": { "open": "11:00", "close": "21:00" }
+    }
   },
   {
     "name": "Cane Rosso Arlington",
     "rating": 4.4,
+    "reviewCount": 900,
     "priceLevel": 2,
-    "categories": ["italian", "pizza", "restaurant"],
+    "categories": ["italian", "pizza"],
     "mode": ["food"],
     "lat": 32.7496,
-    "lng": -97.0811
+    "lng": -97.0811,
+    "hours": {
+      "monday": { "open": "11:00", "close": "21:30" },
+      "tuesday": { "open": "11:00", "close": "21:30" },
+      "wednesday": { "open": "11:00", "close": "21:30" },
+      "thursday": { "open": "11:00", "close": "21:30" },
+      "friday": { "open": "11:00", "close": "22:30" },
+      "saturday": { "open": "11:00", "close": "22:30" },
+      "sunday": { "open": "11:00", "close": "21:00" }
+    }
   },
   {
     "name": "Pappasito's Cantina",
     "rating": 4.5,
+    "reviewCount": 3200,
     "priceLevel": 3,
-    "categories": ["mexican", "tex-mex", "restaurant"],
+    "categories": ["mexican", "tex-mex"],
     "mode": ["food", "drink"],
     "lat": 32.7567,
-    "lng": -97.0728
+    "lng": -97.0728,
+    "hours": {
+      "monday": { "open": "11:00", "close": "22:00" },
+      "tuesday": { "open": "11:00", "close": "22:00" },
+      "wednesday": { "open": "11:00", "close": "22:00" },
+      "thursday": { "open": "11:00", "close": "22:00" },
+      "friday": { "open": "11:00", "close": "23:00" },
+      "saturday": { "open": "11:00", "close": "23:00" },
+      "sunday": { "open": "11:00", "close": "21:00" }
+    }
   },
   {
     "name": "Tacos La Banqueta",
     "rating": 4.4,
+    "reviewCount": 750,
     "priceLevel": 1,
     "categories": ["mexican", "street-food", "tacos"],
     "mode": ["food"],
     "lat": 32.7228,
-    "lng": -97.0997
+    "lng": -97.0997,
+    "hours": {
+      "monday": { "open": "07:00", "close": "23:00" },
+      "tuesday": { "open": "07:00", "close": "23:00" },
+      "wednesday": { "open": "07:00", "close": "23:00" },
+      "thursday": { "open": "07:00", "close": "23:00" },
+      "friday": { "open": "07:00", "close": "01:00" },
+      "saturday": { "open": "07:00", "close": "01:00" },
+      "sunday": { "open": "07:00", "close": "22:00" }
+    }
   },
   {
     "name": "Salsa Limon",
     "rating": 4.3,
+    "reviewCount": 480,
     "priceLevel": 1,
-    "categories": ["mexican", "tacos", "restaurant"],
+    "categories": ["mexican", "tacos"],
     "mode": ["food"],
     "lat": 32.7443,
-    "lng": -97.0916
+    "lng": -97.0916,
+    "hours": {
+      "monday": { "open": "11:00", "close": "21:00" },
+      "tuesday": { "open": "11:00", "close": "21:00" },
+      "wednesday": { "open": "11:00", "close": "21:00" },
+      "thursday": { "open": "11:00", "close": "21:00" },
+      "friday": { "open": "11:00", "close": "22:00" },
+      "saturday": { "open": "11:00", "close": "22:00" },
+      "sunday": { "open": "11:00", "close": "21:00" }
+    }
   },
   {
     "name": "J Gilligan's Bar & Grill",
     "rating": 4.4,
+    "reviewCount": 1800,
     "priceLevel": 2,
-    "categories": ["american", "burger", "bar"],
+    "categories": ["american", "burger", "bar", "late-night"],
     "mode": ["food", "drink"],
     "lat": 32.7371,
-    "lng": -97.1066
+    "lng": -97.1066,
+    "hours": {
+      "monday": { "open": "11:00", "close": "00:00" },
+      "tuesday": { "open": "11:00", "close": "00:00" },
+      "wednesday": { "open": "11:00", "close": "00:00" },
+      "thursday": { "open": "11:00", "close": "00:00" },
+      "friday": { "open": "11:00", "close": "02:00" },
+      "saturday": { "open": "11:00", "close": "02:00" },
+      "sunday": { "open": "11:00", "close": "00:00" }
+    }
   },
   {
     "name": "Grease Monkey",
     "rating": 4.5,
+    "reviewCount": 920,
     "priceLevel": 2,
     "categories": ["american", "burger", "chicken"],
     "mode": ["food", "drink"],
     "lat": 32.7451,
-    "lng": -97.1084
+    "lng": -97.1084,
+    "hours": {
+      "monday": { "open": "11:00", "close": "21:00" },
+      "tuesday": { "open": "11:00", "close": "21:00" },
+      "wednesday": { "open": "11:00", "close": "21:00" },
+      "thursday": { "open": "11:00", "close": "21:00" },
+      "friday": { "open": "11:00", "close": "22:00" },
+      "saturday": { "open": "11:00", "close": "22:00" },
+      "sunday": { "open": "11:00", "close": "21:00" }
+    }
   },
   {
     "name": "Twisted Root Burger Co.",
     "rating": 4.3,
+    "reviewCount": 1100,
     "priceLevel": 2,
-    "categories": ["american", "burger", "restaurant"],
+    "categories": ["american", "burger"],
     "mode": ["food"],
     "lat": 32.7491,
-    "lng": -97.0829
+    "lng": -97.0829,
+    "hours": {
+      "monday": { "open": "11:00", "close": "21:00" },
+      "tuesday": { "open": "11:00", "close": "21:00" },
+      "wednesday": { "open": "11:00", "close": "21:00" },
+      "thursday": { "open": "11:00", "close": "21:00" },
+      "friday": { "open": "11:00", "close": "22:00" },
+      "saturday": { "open": "11:00", "close": "22:00" },
+      "sunday": { "open": "11:00", "close": "21:00" }
+    }
   },
   {
     "name": "Chick-fil-A Cooper",
     "rating": 4.4,
+    "reviewCount": 1600,
     "priceLevel": 1,
     "categories": ["chicken", "american", "fast-food"],
     "mode": ["food"],
     "lat": 32.7182,
-    "lng": -97.1148
+    "lng": -97.1148,
+    "hours": {
+      "monday": { "open": "06:30", "close": "22:00" },
+      "tuesday": { "open": "06:30", "close": "22:00" },
+      "wednesday": { "open": "06:30", "close": "22:00" },
+      "thursday": { "open": "06:30", "close": "22:00" },
+      "friday": { "open": "06:30", "close": "22:00" },
+      "saturday": { "open": "06:30", "close": "22:00" },
+      "sunday": "closed"
+    }
   },
   {
     "name": "Layne's Chicken Fingers",
     "rating": 4.6,
+    "reviewCount": 540,
     "priceLevel": 1,
     "categories": ["chicken", "american", "fast-food"],
     "mode": ["food"],
     "lat": 32.7352,
-    "lng": -97.1291
+    "lng": -97.1291,
+    "hours": {
+      "monday": { "open": "10:30", "close": "22:00" },
+      "tuesday": { "open": "10:30", "close": "22:00" },
+      "wednesday": { "open": "10:30", "close": "22:00" },
+      "thursday": { "open": "10:30", "close": "22:00" },
+      "friday": { "open": "10:30", "close": "23:00" },
+      "saturday": { "open": "10:30", "close": "23:00" },
+      "sunday": { "open": "10:30", "close": "21:00" }
+    }
   },
   {
     "name": "Raising Cane's Arlington",
     "rating": 4.3,
+    "reviewCount": 1300,
     "priceLevel": 1,
-    "categories": ["chicken", "fast-food", "american"],
+    "categories": ["chicken", "fast-food", "american", "late-night"],
     "mode": ["food"],
     "lat": 32.7244,
-    "lng": -97.1138
+    "lng": -97.1138,
+    "hours": {
+      "monday": { "open": "10:00", "close": "01:00" },
+      "tuesday": { "open": "10:00", "close": "01:00" },
+      "wednesday": { "open": "10:00", "close": "01:00" },
+      "thursday": { "open": "10:00", "close": "01:00" },
+      "friday": { "open": "10:00", "close": "02:00" },
+      "saturday": { "open": "10:00", "close": "02:00" },
+      "sunday": { "open": "10:00", "close": "01:00" }
+    }
   },
   {
     "name": "Kung Fu Tea Arlington",
     "rating": 4.6,
+    "reviewCount": 420,
     "priceLevel": 1,
     "categories": ["boba", "tea", "dessert"],
     "mode": ["drink"],
     "lat": 32.7318,
-    "lng": -97.1062
+    "lng": -97.1062,
+    "hours": {
+      "monday": { "open": "11:00", "close": "22:00" },
+      "tuesday": { "open": "11:00", "close": "22:00" },
+      "wednesday": { "open": "11:00", "close": "22:00" },
+      "thursday": { "open": "11:00", "close": "22:00" },
+      "friday": { "open": "11:00", "close": "23:00" },
+      "saturday": { "open": "11:00", "close": "23:00" },
+      "sunday": { "open": "11:00", "close": "21:00" }
+    }
   },
   {
     "name": "Sharetea Arlington",
     "rating": 4.5,
+    "reviewCount": 380,
     "priceLevel": 1,
     "categories": ["boba", "tea", "drink"],
     "mode": ["drink"],
     "lat": 32.7396,
-    "lng": -97.1004
+    "lng": -97.1004,
+    "hours": {
+      "monday": { "open": "11:00", "close": "21:30" },
+      "tuesday": { "open": "11:00", "close": "21:30" },
+      "wednesday": { "open": "11:00", "close": "21:30" },
+      "thursday": { "open": "11:00", "close": "21:30" },
+      "friday": { "open": "11:00", "close": "22:00" },
+      "saturday": { "open": "11:00", "close": "22:00" },
+      "sunday": { "open": "12:00", "close": "21:00" }
+    }
   },
   {
     "name": "Feng Cha Arlington",
     "rating": 4.4,
+    "reviewCount": 310,
     "priceLevel": 1,
     "categories": ["boba", "tea", "dessert"],
     "mode": ["drink"],
     "lat": 32.7448,
-    "lng": -97.0919
+    "lng": -97.0919,
+    "hours": {
+      "monday": { "open": "11:00", "close": "22:00" },
+      "tuesday": { "open": "11:00", "close": "22:00" },
+      "wednesday": { "open": "11:00", "close": "22:00" },
+      "thursday": { "open": "11:00", "close": "22:00" },
+      "friday": { "open": "11:00", "close": "23:00" },
+      "saturday": { "open": "11:00", "close": "23:00" },
+      "sunday": { "open": "12:00", "close": "21:00" }
+    }
   },
   {
     "name": "Ding Tea Arlington",
     "rating": 4.3,
+    "reviewCount": 270,
     "priceLevel": 1,
     "categories": ["boba", "tea", "drink"],
     "mode": ["drink"],
     "lat": 32.7273,
-    "lng": -97.1014
+    "lng": -97.1014,
+    "hours": {
+      "monday": { "open": "12:00", "close": "21:30" },
+      "tuesday": { "open": "12:00", "close": "21:30" },
+      "wednesday": { "open": "12:00", "close": "21:30" },
+      "thursday": { "open": "12:00", "close": "21:30" },
+      "friday": { "open": "12:00", "close": "22:00" },
+      "saturday": { "open": "12:00", "close": "22:00" },
+      "sunday": { "open": "12:00", "close": "21:00" }
+    }
   },
   {
     "name": "Mochinut Arlington",
     "rating": 4.5,
+    "reviewCount": 350,
     "priceLevel": 1,
     "categories": ["dessert", "boba", "donuts"],
     "mode": ["food", "drink"],
     "lat": 32.7335,
-    "lng": -97.1041
+    "lng": -97.1041,
+    "hours": {
+      "monday": { "open": "11:00", "close": "21:00" },
+      "tuesday": { "open": "11:00", "close": "21:00" },
+      "wednesday": { "open": "11:00", "close": "21:00" },
+      "thursday": { "open": "11:00", "close": "21:00" },
+      "friday": { "open": "11:00", "close": "22:00" },
+      "saturday": { "open": "11:00", "close": "22:00" },
+      "sunday": { "open": "12:00", "close": "20:00" }
+    }
   },
   {
     "name": "Inclusion Coffee",
     "rating": 4.7,
+    "reviewCount": 680,
     "priceLevel": 2,
     "categories": ["coffee", "bakery", "dessert"],
     "mode": ["drink", "food"],
     "lat": 32.7351,
-    "lng": -97.1074
+    "lng": -97.1074,
+    "hours": {
+      "monday": { "open": "07:00", "close": "18:00" },
+      "tuesday": { "open": "07:00", "close": "18:00" },
+      "wednesday": { "open": "07:00", "close": "18:00" },
+      "thursday": { "open": "07:00", "close": "18:00" },
+      "friday": { "open": "07:00", "close": "18:00" },
+      "saturday": { "open": "08:00", "close": "18:00" },
+      "sunday": { "open": "08:00", "close": "16:00" }
+    }
   },
   {
     "name": "Nehemiah Coffee Co.",
     "rating": 4.6,
+    "reviewCount": 450,
     "priceLevel": 2,
     "categories": ["coffee", "dessert", "cafe"],
     "mode": ["drink", "food"],
     "lat": 32.7429,
-    "lng": -97.1091
+    "lng": -97.1091,
+    "hours": {
+      "monday": { "open": "06:30", "close": "17:00" },
+      "tuesday": { "open": "06:30", "close": "17:00" },
+      "wednesday": { "open": "06:30", "close": "17:00" },
+      "thursday": { "open": "06:30", "close": "17:00" },
+      "friday": { "open": "06:30", "close": "17:00" },
+      "saturday": { "open": "07:30", "close": "17:00" },
+      "sunday": { "open": "08:00", "close": "15:00" }
+    }
   },
   {
     "name": "Starbucks UTA Blvd",
     "rating": 4.3,
+    "reviewCount": 520,
     "priceLevel": 2,
     "categories": ["coffee", "cafe", "drink"],
     "mode": ["drink", "food"],
     "lat": 32.7305,
-    "lng": -97.1162
+    "lng": -97.1162,
+    "hours": {
+      "monday": { "open": "05:00", "close": "21:00" },
+      "tuesday": { "open": "05:00", "close": "21:00" },
+      "wednesday": { "open": "05:00", "close": "21:00" },
+      "thursday": { "open": "05:00", "close": "21:00" },
+      "friday": { "open": "05:00", "close": "21:00" },
+      "saturday": { "open": "05:30", "close": "21:00" },
+      "sunday": { "open": "06:00", "close": "20:00" }
+    }
   },
   {
     "name": "Black Rock Coffee Bar",
     "rating": 4.5,
+    "reviewCount": 390,
     "priceLevel": 2,
     "categories": ["coffee", "drink", "cafe"],
     "mode": ["drink"],
     "lat": 32.7512,
-    "lng": -97.0877
+    "lng": -97.0877,
+    "hours": {
+      "monday": { "open": "05:00", "close": "20:00" },
+      "tuesday": { "open": "05:00", "close": "20:00" },
+      "wednesday": { "open": "05:00", "close": "20:00" },
+      "thursday": { "open": "05:00", "close": "20:00" },
+      "friday": { "open": "05:00", "close": "20:00" },
+      "saturday": { "open": "06:00", "close": "20:00" },
+      "sunday": { "open": "06:00", "close": "19:00" }
+    }
   },
   {
     "name": "Bethany Cafe",
     "rating": 4.4,
+    "reviewCount": 280,
     "priceLevel": 2,
     "categories": ["coffee", "dessert", "american"],
     "mode": ["drink", "food"],
     "lat": 32.7286,
-    "lng": -97.1245
+    "lng": -97.1245,
+    "hours": {
+      "monday": { "open": "07:00", "close": "20:00" },
+      "tuesday": { "open": "07:00", "close": "20:00" },
+      "wednesday": { "open": "07:00", "close": "20:00" },
+      "thursday": { "open": "07:00", "close": "20:00" },
+      "friday": { "open": "07:00", "close": "21:00" },
+      "saturday": { "open": "08:00", "close": "21:00" },
+      "sunday": { "open": "08:00", "close": "18:00" }
+    }
   },
   {
     "name": "Insomnia Cookies Arlington",
     "rating": 4.5,
+    "reviewCount": 620,
     "priceLevel": 1,
     "categories": ["dessert", "cookies", "late-night"],
     "mode": ["food", "drink"],
     "lat": 32.7321,
-    "lng": -97.1103
+    "lng": -97.1103,
+    "hours": {
+      "monday": { "open": "11:00", "close": "01:00" },
+      "tuesday": { "open": "11:00", "close": "01:00" },
+      "wednesday": { "open": "11:00", "close": "01:00" },
+      "thursday": { "open": "11:00", "close": "01:00" },
+      "friday": { "open": "11:00", "close": "03:00" },
+      "saturday": { "open": "11:00", "close": "03:00" },
+      "sunday": { "open": "11:00", "close": "01:00" }
+    }
   },
   {
     "name": "Marble Slab Creamery",
     "rating": 4.4,
+    "reviewCount": 440,
     "priceLevel": 2,
     "categories": ["dessert", "ice-cream", "drink"],
     "mode": ["food", "drink"],
     "lat": 32.7415,
-    "lng": -97.0995
+    "lng": -97.0995,
+    "hours": {
+      "monday": { "open": "12:00", "close": "21:00" },
+      "tuesday": { "open": "12:00", "close": "21:00" },
+      "wednesday": { "open": "12:00", "close": "21:00" },
+      "thursday": { "open": "12:00", "close": "21:00" },
+      "friday": { "open": "12:00", "close": "22:00" },
+      "saturday": { "open": "12:00", "close": "22:00" },
+      "sunday": { "open": "12:00", "close": "21:00" }
+    }
   },
   {
     "name": "The Meltdown Diner",
     "rating": 4.3,
+    "reviewCount": 360,
     "priceLevel": 2,
     "categories": ["american", "burger", "late-night"],
     "mode": ["food"],
     "lat": 32.7484,
-    "lng": -97.0939
+    "lng": -97.0939,
+    "hours": {
+      "monday": { "open": "11:00", "close": "00:00" },
+      "tuesday": { "open": "11:00", "close": "00:00" },
+      "wednesday": { "open": "11:00", "close": "00:00" },
+      "thursday": { "open": "11:00", "close": "00:00" },
+      "friday": { "open": "11:00", "close": "02:00" },
+      "saturday": { "open": "11:00", "close": "02:00" },
+      "sunday": { "open": "11:00", "close": "23:00" }
+    }
   },
   {
     "name": "Spice 8 Asian Kitchen",
     "rating": 4.6,
+    "reviewCount": 780,
     "priceLevel": 2,
-    "categories": ["asian", "halal", "restaurant"],
+    "categories": ["asian", "halal", "chinese"],
     "mode": ["food"],
     "lat": 32.7536,
-    "lng": -97.0892
+    "lng": -97.0892,
+    "hours": {
+      "monday": { "open": "11:00", "close": "21:30" },
+      "tuesday": { "open": "11:00", "close": "21:30" },
+      "wednesday": { "open": "11:00", "close": "21:30" },
+      "thursday": { "open": "11:00", "close": "21:30" },
+      "friday": { "open": "11:00", "close": "22:00" },
+      "saturday": { "open": "11:00", "close": "22:00" },
+      "sunday": { "open": "11:00", "close": "21:00" }
+    }
   },
   {
     "name": "Biryani Pot Arlington",
     "rating": 4.4,
+    "reviewCount": 650,
     "priceLevel": 2,
-    "categories": ["halal", "indian", "restaurant"],
+    "categories": ["halal", "indian", "biryani"],
     "mode": ["food"],
     "lat": 32.7459,
-    "lng": -97.0845
+    "lng": -97.0845,
+    "hours": {
+      "monday": { "open": "11:30", "close": "22:00" },
+      "tuesday": { "open": "11:30", "close": "22:00" },
+      "wednesday": { "open": "11:30", "close": "22:00" },
+      "thursday": { "open": "11:30", "close": "22:00" },
+      "friday": { "open": "11:30", "close": "23:00" },
+      "saturday": { "open": "11:30", "close": "23:00" },
+      "sunday": { "open": "11:30", "close": "22:00" }
+    }
+  },
+  {
+    "name": "New York Eats",
+    "rating": 4.3,
+    "reviewCount": 520,
+    "priceLevel": 1,
+    "categories": ["halal", "middle-eastern", "gyro", "chicken"],
+    "mode": ["food"],
+    "lat": 32.7362,
+    "lng": -97.1053,
+    "hours": {
+      "monday": { "open": "10:00", "close": "22:00" },
+      "tuesday": { "open": "10:00", "close": "22:00" },
+      "wednesday": { "open": "10:00", "close": "22:00" },
+      "thursday": { "open": "10:00", "close": "22:00" },
+      "friday": { "open": "10:00", "close": "23:00" },
+      "saturday": { "open": "10:00", "close": "23:00" },
+      "sunday": { "open": "10:00", "close": "21:00" }
+    }
+  },
+  {
+    "name": "Afrah Mediterranean",
+    "rating": 4.5,
+    "reviewCount": 2800,
+    "priceLevel": 2,
+    "categories": ["halal", "mediterranean", "middle-eastern"],
+    "mode": ["food"],
+    "lat": 32.7501,
+    "lng": -97.0756,
+    "hours": {
+      "monday": { "open": "11:00", "close": "22:00" },
+      "tuesday": { "open": "11:00", "close": "22:00" },
+      "wednesday": { "open": "11:00", "close": "22:00" },
+      "thursday": { "open": "11:00", "close": "22:00" },
+      "friday": { "open": "11:00", "close": "23:00" },
+      "saturday": { "open": "11:00", "close": "23:00" },
+      "sunday": { "open": "11:00", "close": "22:00" }
+    }
+  },
+  {
+    "name": "Zaiqa Grille",
+    "rating": 4.4,
+    "reviewCount": 480,
+    "priceLevel": 2,
+    "categories": ["halal", "pakistani", "indian"],
+    "mode": ["food"],
+    "lat": 32.7410,
+    "lng": -97.0968,
+    "hours": {
+      "monday": { "open": "11:00", "close": "22:00" },
+      "tuesday": { "open": "11:00", "close": "22:00" },
+      "wednesday": { "open": "11:00", "close": "22:00" },
+      "thursday": { "open": "11:00", "close": "22:00" },
+      "friday": { "open": "11:00", "close": "23:00" },
+      "saturday": { "open": "11:00", "close": "23:00" },
+      "sunday": { "open": "11:00", "close": "21:30" }
+    }
+  },
+  {
+    "name": "Kabab House Arlington",
+    "rating": 4.3,
+    "reviewCount": 410,
+    "priceLevel": 1,
+    "categories": ["halal", "middle-eastern", "kebab"],
+    "mode": ["food"],
+    "lat": 32.7389,
+    "lng": -97.1010,
+    "hours": {
+      "monday": { "open": "11:00", "close": "22:00" },
+      "tuesday": { "open": "11:00", "close": "22:00" },
+      "wednesday": { "open": "11:00", "close": "22:00" },
+      "thursday": { "open": "11:00", "close": "22:00" },
+      "friday": { "open": "11:00", "close": "23:00" },
+      "saturday": { "open": "11:00", "close": "23:00" },
+      "sunday": { "open": "11:00", "close": "21:00" }
+    }
+  },
+  {
+    "name": "Whataburger UTA",
+    "rating": 4.0,
+    "reviewCount": 950,
+    "priceLevel": 1,
+    "categories": ["burger", "american", "fast-food", "late-night"],
+    "mode": ["food"],
+    "lat": 32.7292,
+    "lng": -97.1088,
+    "hours": {
+      "monday": { "open": "00:00", "close": "23:59" },
+      "tuesday": { "open": "00:00", "close": "23:59" },
+      "wednesday": { "open": "00:00", "close": "23:59" },
+      "thursday": { "open": "00:00", "close": "23:59" },
+      "friday": { "open": "00:00", "close": "23:59" },
+      "saturday": { "open": "00:00", "close": "23:59" },
+      "sunday": { "open": "00:00", "close": "23:59" }
+    }
+  },
+  {
+    "name": "Taco Bell UTA Blvd",
+    "rating": 3.8,
+    "reviewCount": 680,
+    "priceLevel": 1,
+    "categories": ["mexican", "fast-food", "late-night"],
+    "mode": ["food"],
+    "lat": 32.7275,
+    "lng": -97.1120,
+    "hours": {
+      "monday": { "open": "07:00", "close": "02:00" },
+      "tuesday": { "open": "07:00", "close": "02:00" },
+      "wednesday": { "open": "07:00", "close": "02:00" },
+      "thursday": { "open": "07:00", "close": "02:00" },
+      "friday": { "open": "07:00", "close": "03:00" },
+      "saturday": { "open": "07:00", "close": "03:00" },
+      "sunday": { "open": "07:00", "close": "01:00" }
+    }
+  },
+  {
+    "name": "IHOP Arlington",
+    "rating": 3.9,
+    "reviewCount": 720,
+    "priceLevel": 2,
+    "categories": ["american", "breakfast", "late-night"],
+    "mode": ["food"],
+    "lat": 32.7312,
+    "lng": -97.0998,
+    "hours": {
+      "monday": { "open": "00:00", "close": "23:59" },
+      "tuesday": { "open": "00:00", "close": "23:59" },
+      "wednesday": { "open": "00:00", "close": "23:59" },
+      "thursday": { "open": "00:00", "close": "23:59" },
+      "friday": { "open": "00:00", "close": "23:59" },
+      "saturday": { "open": "00:00", "close": "23:59" },
+      "sunday": { "open": "00:00", "close": "23:59" }
+    }
+  },
+  {
+    "name": "Wingstop Cooper St",
+    "rating": 4.1,
+    "reviewCount": 580,
+    "priceLevel": 1,
+    "categories": ["chicken", "wings", "american"],
+    "mode": ["food"],
+    "lat": 32.7240,
+    "lng": -97.1155,
+    "hours": {
+      "monday": { "open": "10:30", "close": "00:00" },
+      "tuesday": { "open": "10:30", "close": "00:00" },
+      "wednesday": { "open": "10:30", "close": "00:00" },
+      "thursday": { "open": "10:30", "close": "00:00" },
+      "friday": { "open": "10:30", "close": "01:00" },
+      "saturday": { "open": "10:30", "close": "01:00" },
+      "sunday": { "open": "10:30", "close": "00:00" }
+    }
+  },
+  {
+    "name": "Potbelly Sandwich Shop",
+    "rating": 4.2,
+    "reviewCount": 340,
+    "priceLevel": 1,
+    "categories": ["american", "sandwich", "fast-casual"],
+    "mode": ["food"],
+    "lat": 32.7338,
+    "lng": -97.1120,
+    "hours": {
+      "monday": { "open": "10:00", "close": "20:00" },
+      "tuesday": { "open": "10:00", "close": "20:00" },
+      "wednesday": { "open": "10:00", "close": "20:00" },
+      "thursday": { "open": "10:00", "close": "20:00" },
+      "friday": { "open": "10:00", "close": "21:00" },
+      "saturday": { "open": "10:00", "close": "21:00" },
+      "sunday": { "open": "10:00", "close": "19:00" }
+    }
+  },
+  {
+    "name": "Chipotle UTA",
+    "rating": 4.1,
+    "reviewCount": 890,
+    "priceLevel": 1,
+    "categories": ["mexican", "fast-casual", "burrito"],
+    "mode": ["food"],
+    "lat": 32.7310,
+    "lng": -97.1075,
+    "hours": {
+      "monday": { "open": "10:45", "close": "23:00" },
+      "tuesday": { "open": "10:45", "close": "23:00" },
+      "wednesday": { "open": "10:45", "close": "23:00" },
+      "thursday": { "open": "10:45", "close": "23:00" },
+      "friday": { "open": "10:45", "close": "23:00" },
+      "saturday": { "open": "10:45", "close": "23:00" },
+      "sunday": { "open": "10:45", "close": "22:00" }
+    }
+  },
+  {
+    "name": "Panda Express UTA",
+    "rating": 3.9,
+    "reviewCount": 600,
+    "priceLevel": 1,
+    "categories": ["asian", "chinese", "fast-food"],
+    "mode": ["food"],
+    "lat": 32.7295,
+    "lng": -97.1105,
+    "hours": {
+      "monday": { "open": "10:00", "close": "22:00" },
+      "tuesday": { "open": "10:00", "close": "22:00" },
+      "wednesday": { "open": "10:00", "close": "22:00" },
+      "thursday": { "open": "10:00", "close": "22:00" },
+      "friday": { "open": "10:00", "close": "22:30" },
+      "saturday": { "open": "10:00", "close": "22:30" },
+      "sunday": { "open": "10:00", "close": "21:30" }
+    }
+  },
+  {
+    "name": "Which Wich UTA",
+    "rating": 4.2,
+    "reviewCount": 310,
+    "priceLevel": 1,
+    "categories": ["american", "sandwich", "fast-casual"],
+    "mode": ["food"],
+    "lat": 32.7325,
+    "lng": -97.1092,
+    "hours": {
+      "monday": { "open": "10:30", "close": "21:00" },
+      "tuesday": { "open": "10:30", "close": "21:00" },
+      "wednesday": { "open": "10:30", "close": "21:00" },
+      "thursday": { "open": "10:30", "close": "21:00" },
+      "friday": { "open": "10:30", "close": "21:00" },
+      "saturday": { "open": "10:30", "close": "21:00" },
+      "sunday": { "open": "11:00", "close": "20:00" }
+    }
+  },
+  {
+    "name": "Masala Wok Arlington",
+    "rating": 4.2,
+    "reviewCount": 420,
+    "priceLevel": 1,
+    "categories": ["indian", "halal", "asian"],
+    "mode": ["food"],
+    "lat": 32.7352,
+    "lng": -97.0985,
+    "hours": {
+      "monday": { "open": "11:00", "close": "21:00" },
+      "tuesday": { "open": "11:00", "close": "21:00" },
+      "wednesday": { "open": "11:00", "close": "21:00" },
+      "thursday": { "open": "11:00", "close": "21:00" },
+      "friday": { "open": "11:00", "close": "21:30" },
+      "saturday": { "open": "11:00", "close": "21:30" },
+      "sunday": { "open": "11:00", "close": "21:00" }
+    }
+  },
+  {
+    "name": "Jason's Deli Arlington",
+    "rating": 4.3,
+    "reviewCount": 780,
+    "priceLevel": 2,
+    "categories": ["american", "sandwich", "healthy"],
+    "mode": ["food"],
+    "lat": 32.7440,
+    "lng": -97.0950,
+    "hours": {
+      "monday": { "open": "10:00", "close": "21:00" },
+      "tuesday": { "open": "10:00", "close": "21:00" },
+      "wednesday": { "open": "10:00", "close": "21:00" },
+      "thursday": { "open": "10:00", "close": "21:00" },
+      "friday": { "open": "10:00", "close": "21:00" },
+      "saturday": { "open": "10:00", "close": "21:00" },
+      "sunday": { "open": "10:00", "close": "20:00" }
+    }
+  },
+  {
+    "name": "Naan & Kabob",
+    "rating": 4.5,
+    "reviewCount": 560,
+    "priceLevel": 1,
+    "categories": ["halal", "pakistani", "kebab"],
+    "mode": ["food"],
+    "lat": 32.7375,
+    "lng": -97.1035,
+    "hours": {
+      "monday": { "open": "11:00", "close": "22:00" },
+      "tuesday": { "open": "11:00", "close": "22:00" },
+      "wednesday": { "open": "11:00", "close": "22:00" },
+      "thursday": { "open": "11:00", "close": "22:00" },
+      "friday": { "open": "11:00", "close": "23:00" },
+      "saturday": { "open": "11:00", "close": "23:00" },
+      "sunday": { "open": "11:00", "close": "21:30" }
+    }
+  },
+  {
+    "name": "Tikka Shack",
+    "rating": 4.3,
+    "reviewCount": 390,
+    "priceLevel": 1,
+    "categories": ["halal", "indian", "chicken"],
+    "mode": ["food"],
+    "lat": 32.7328,
+    "lng": -97.1045,
+    "hours": {
+      "monday": { "open": "11:00", "close": "21:30" },
+      "tuesday": { "open": "11:00", "close": "21:30" },
+      "wednesday": { "open": "11:00", "close": "21:30" },
+      "thursday": { "open": "11:00", "close": "21:30" },
+      "friday": { "open": "11:00", "close": "22:00" },
+      "saturday": { "open": "11:00", "close": "22:00" },
+      "sunday": { "open": "11:00", "close": "21:00" }
+    }
+  },
+  {
+    "name": "Tiger Sugar Arlington",
+    "rating": 4.4,
+    "reviewCount": 290,
+    "priceLevel": 1,
+    "categories": ["boba", "tea", "dessert"],
+    "mode": ["drink"],
+    "lat": 32.7400,
+    "lng": -97.1060,
+    "hours": {
+      "monday": { "open": "11:00", "close": "22:00" },
+      "tuesday": { "open": "11:00", "close": "22:00" },
+      "wednesday": { "open": "11:00", "close": "22:00" },
+      "thursday": { "open": "11:00", "close": "22:00" },
+      "friday": { "open": "11:00", "close": "23:00" },
+      "saturday": { "open": "11:00", "close": "23:00" },
+      "sunday": { "open": "12:00", "close": "21:00" }
+    }
+  },
+  {
+    "name": "Waffle House Arlington",
+    "rating": 3.8,
+    "reviewCount": 430,
+    "priceLevel": 1,
+    "categories": ["american", "breakfast", "late-night"],
+    "mode": ["food"],
+    "lat": 32.7260,
+    "lng": -97.1070,
+    "hours": {
+      "monday": { "open": "00:00", "close": "23:59" },
+      "tuesday": { "open": "00:00", "close": "23:59" },
+      "wednesday": { "open": "00:00", "close": "23:59" },
+      "thursday": { "open": "00:00", "close": "23:59" },
+      "friday": { "open": "00:00", "close": "23:59" },
+      "saturday": { "open": "00:00", "close": "23:59" },
+      "sunday": { "open": "00:00", "close": "23:59" }
+    }
   }
 ]
