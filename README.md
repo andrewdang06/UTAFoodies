@@ -14,7 +14,7 @@ The app focuses on practical searches like halal food, late-night spots, cheap e
 
 ## Why this project exists
 
-A lot of food apps show random results or outdated places around campus. MavEats tries to solve that by focusing on relevance and nearby options students would actually go to.
+I want a website specific to UTA students where they can just prompt what they want to eat and they can see all the nearest places without having to scourage through Google Maps.
 
 ## Tech Stack
 
